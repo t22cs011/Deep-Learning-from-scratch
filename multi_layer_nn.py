@@ -14,6 +14,7 @@ class MultiLayerNN:
         # #各出力ニューロンに加えるバイアス項(10要素の1次元配列)
         # self.params['b2'] = np.zeros(output_size) 
         
+        # レイヤーの層数を計算
         layer_sizes = [input_size] + hidden_sizes + [output_size]
         self.params = {} #各層における重みベクトルとバイアスベクトルを保持するディクショナリ
         # 例:

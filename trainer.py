@@ -16,14 +16,14 @@ def run_experiments():
     # 実験設定（全パターンでepochs=200、学習率(lr)=0.01に統一）
     experiments = [
         # 1層のパターン
-        {"hidden_sizes": [4],    "epochs": 200, "batch_size": 128, "lr": 0.01},
-        {"hidden_sizes": [8],    "epochs": 200, "batch_size": 128, "lr": 0.01},
-        {"hidden_sizes": [16],   "epochs": 200, "batch_size": 128, "lr": 0.01},
-        {"hidden_sizes": [32],   "epochs": 200, "batch_size": 128, "lr": 0.01},
-        {"hidden_sizes": [64],   "epochs": 200, "batch_size": 128, "lr": 0.01},
-        {"hidden_sizes": [128],  "epochs": 200, "batch_size": 128, "lr": 0.01},
-        {"hidden_sizes": [256],  "epochs": 200, "batch_size": 128, "lr": 0.01},
-        {"hidden_sizes": [512],  "epochs": 200, "batch_size": 128, "lr": 0.01},
+        # {"hidden_sizes": [4],    "epochs": 200, "batch_size": 128, "lr": 0.01},
+        # {"hidden_sizes": [8],    "epochs": 200, "batch_size": 128, "lr": 0.01},
+        # {"hidden_sizes": [16],   "epochs": 200, "batch_size": 128, "lr": 0.01},
+        # {"hidden_sizes": [32],   "epochs": 200, "batch_size": 128, "lr": 0.01},
+        # {"hidden_sizes": [64],   "epochs": 200, "batch_size": 128, "lr": 0.01},
+        # {"hidden_sizes": [128],  "epochs": 200, "batch_size": 128, "lr": 0.01},
+        # {"hidden_sizes": [256],  "epochs": 200, "batch_size": 128, "lr": 0.01},
+        # {"hidden_sizes": [512],  "epochs": 200, "batch_size": 128, "lr": 0.01},
         {"hidden_sizes": [1024], "epochs": 200, "batch_size": 128, "lr": 0.01},
 
         # 2層のパターン
