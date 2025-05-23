@@ -24,40 +24,40 @@ def run_experiments():
         # {"hidden_sizes": [128],  "epochs": 200, "batch_size": 128, "lr": 0.01},
         # {"hidden_sizes": [256],  "epochs": 200, "batch_size": 128, "lr": 0.01},
         # {"hidden_sizes": [512],  "epochs": 200, "batch_size": 128, "lr": 0.01},
-        {"hidden_sizes": [1024], "epochs": 200, "batch_size": 128, "lr": 0.01},
+        # {"hidden_sizes": [1024], "epochs": 200, "batch_size": 128, "lr": 0.01},
 
-        # 2層のパターン
-        {"hidden_sizes": [4, 4],       "epochs": 200, "batch_size": 128, "lr": 0.01},
-        {"hidden_sizes": [8, 8],       "epochs": 200, "batch_size": 128, "lr": 0.01},
-        {"hidden_sizes": [16, 16],     "epochs": 200, "batch_size": 128, "lr": 0.01},
-        {"hidden_sizes": [32, 32],     "epochs": 200, "batch_size": 128, "lr": 0.01},
-        {"hidden_sizes": [64, 64],     "epochs": 200, "batch_size": 128, "lr": 0.01},
-        {"hidden_sizes": [128, 128],   "epochs": 200, "batch_size": 128, "lr": 0.01},
-        {"hidden_sizes": [256, 256],   "epochs": 200, "batch_size": 128, "lr": 0.01},
-        {"hidden_sizes": [512, 512],   "epochs": 200, "batch_size": 128, "lr": 0.01},
-        {"hidden_sizes": [1024, 1024], "epochs": 200, "batch_size": 128, "lr": 0.01},
+        # # 2層のパターン
+        # {"hidden_sizes": [4, 4],       "epochs": 200, "batch_size": 128, "lr": 0.01},
+        # {"hidden_sizes": [8, 8],       "epochs": 200, "batch_size": 128, "lr": 0.01},
+        # {"hidden_sizes": [16, 16],     "epochs": 200, "batch_size": 128, "lr": 0.01},
+        # {"hidden_sizes": [32, 32],     "epochs": 200, "batch_size": 128, "lr": 0.01},
+        # {"hidden_sizes": [64, 64],     "epochs": 200, "batch_size": 128, "lr": 0.01},
+        # {"hidden_sizes": [128, 128],   "epochs": 200, "batch_size": 128, "lr": 0.01},
+        # {"hidden_sizes": [256, 256],   "epochs": 200, "batch_size": 128, "lr": 0.01},
+        # {"hidden_sizes": [512, 512],   "epochs": 200, "batch_size": 128, "lr": 0.01},
+        # {"hidden_sizes": [1024, 1024], "epochs": 200, "batch_size": 128, "lr": 0.01},
 
-        # 3層のパターン
-        {"hidden_sizes": [4, 4, 4],          "epochs": 200, "batch_size": 128, "lr": 0.01},
-        {"hidden_sizes": [8, 8, 8],          "epochs": 200, "batch_size": 128, "lr": 0.01},
-        {"hidden_sizes": [16, 16, 16],       "epochs": 200, "batch_size": 128, "lr": 0.01},
-        {"hidden_sizes": [32, 32, 32],       "epochs": 200, "batch_size": 128, "lr": 0.01},
-        {"hidden_sizes": [64, 64, 64],       "epochs": 200, "batch_size": 128, "lr": 0.01},
-        {"hidden_sizes": [128, 128, 128],    "epochs": 200, "batch_size": 128, "lr": 0.01},
-        {"hidden_sizes": [256, 256, 256],    "epochs": 200, "batch_size": 128, "lr": 0.01},
-        {"hidden_sizes": [512, 512, 512],    "epochs": 200, "batch_size": 128, "lr": 0.01},
-        {"hidden_sizes": [1024, 1024, 1024], "epochs": 200, "batch_size": 128, "lr": 0.01},
+        # # 3層のパターン
+        # {"hidden_sizes": [4, 4, 4],          "epochs": 200, "batch_size": 128, "lr": 0.01},
+        # {"hidden_sizes": [8, 8, 8],          "epochs": 200, "batch_size": 128, "lr": 0.01},
+        # {"hidden_sizes": [16, 16, 16],       "epochs": 200, "batch_size": 128, "lr": 0.01},
+        # {"hidden_sizes": [32, 32, 32],       "epochs": 200, "batch_size": 128, "lr": 0.01},
+        # {"hidden_sizes": [64, 64, 64],       "epochs": 200, "batch_size": 128, "lr": 0.01},
+        # {"hidden_sizes": [128, 128, 128],    "epochs": 200, "batch_size": 128, "lr": 0.01},
+        # {"hidden_sizes": [256, 256, 256],    "epochs": 200, "batch_size": 128, "lr": 0.01},
+        # {"hidden_sizes": [512, 512, 512],    "epochs": 200, "batch_size": 128, "lr": 0.01},
+        # {"hidden_sizes": [1024, 1024, 1024], "epochs": 200, "batch_size": 128, "lr": 0.01},
 
-        # 4層のパターン
-        {"hidden_sizes": [4, 4, 4, 4],             "epochs": 200, "batch_size": 128, "lr": 0.01},
-        {"hidden_sizes": [8, 8, 8, 8],             "epochs": 200, "batch_size": 128, "lr": 0.01},
-        {"hidden_sizes": [16, 16, 16, 16],         "epochs": 200, "batch_size": 128, "lr": 0.01},
-        {"hidden_sizes": [32, 32, 32, 32],         "epochs": 200, "batch_size": 128, "lr": 0.01},
-        {"hidden_sizes": [64, 64, 64, 64],         "epochs": 200, "batch_size": 128, "lr": 0.01},
-        {"hidden_sizes": [128, 128, 128, 128],     "epochs": 200, "batch_size": 128, "lr": 0.01},
-        {"hidden_sizes": [256, 256, 256, 256],     "epochs": 200, "batch_size": 128, "lr": 0.01},
-        {"hidden_sizes": [512, 512, 512, 512],     "epochs": 200, "batch_size": 128, "lr": 0.01},
-        {"hidden_sizes": [1024, 1024, 1024, 1024],"epochs": 200, "batch_size": 128, "lr": 0.01},
+        # # 4層のパターン
+        # {"hidden_sizes": [4, 4, 4, 4],             "epochs": 200, "batch_size": 128, "lr": 0.01},
+        # {"hidden_sizes": [8, 8, 8, 8],             "epochs": 200, "batch_size": 128, "lr": 0.01},
+        # {"hidden_sizes": [16, 16, 16, 16],         "epochs": 200, "batch_size": 128, "lr": 0.01},
+        # {"hidden_sizes": [32, 32, 32, 32],         "epochs": 200, "batch_size": 128, "lr": 0.01},
+        # {"hidden_sizes": [64, 64, 64, 64],         "epochs": 200, "batch_size": 128, "lr": 0.01},
+        # {"hidden_sizes": [128, 128, 128, 128],     "epochs": 200, "batch_size": 128, "lr": 0.01},
+        # {"hidden_sizes": [256, 256, 256, 256],     "epochs": 200, "batch_size": 128, "lr": 0.01},
+        # {"hidden_sizes": [512, 512, 512, 512],     "epochs": 200, "batch_size": 128, "lr": 0.01},
+        # {"hidden_sizes": [1024, 1024, 1024, 1024],"epochs": 200, "batch_size": 128, "lr": 0.01},
 
         # 追加パターン
         {"hidden_sizes": [4, 32, 256, 2048], "epochs": 200, "batch_size": 128, "lr": 0.01},
@@ -158,7 +158,7 @@ def run_experiments():
     print("✅ All experiments completed")
 
     # ---- 全実験パターンを層数ごとにまとめて可視化 ----
-    history = {1: {}, 2: {}, 3: {}, 4: {}}
+    history = {}
     for filepath in glob.glob("*_log.csv"):
         if filepath == "experiment_all_log.csv": continue
         df = pd.read_csv(filepath)
@@ -166,6 +166,8 @@ def run_experiments():
         layer_str = os.path.basename(filepath)[:-8]
         dims = list(map(int, layer_str.split('-')))
         layers = len(dims)
+        if layers not in history:
+            history[layers] = {}
         history[layers][layer_str] = df["Test Accuracy"].values
 
     # カラー設定：ユニット数ごとに同じ色を割り当て
